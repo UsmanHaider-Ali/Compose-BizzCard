@@ -73,26 +73,25 @@ fun MainCompose() {
                 Text(text = "Portfolio")
             }
             Divider()
-            if (buttonClickedState.value)
-                PortfolioContent(
-                    listOf(
-                        "Project One",
-                        "Project Two",
-                        "Project Three",
-                        "Project Four",
-                        "Project Five",
-                        "Project One",
-                        "Project Two",
-                        "Project Three",
-                        "Project Four",
-                        "Project Five",
-                        "Project One",
-                        "Project Two",
-                        "Project Three",
-                        "Project Four",
-                        "Project Five"
-                    )
+            if (buttonClickedState.value) PortfolioContent(
+                listOf(
+                    "Project One",
+                    "Project Two",
+                    "Project Three",
+                    "Project Four",
+                    "Project Five",
+                    "Project One",
+                    "Project Two",
+                    "Project Three",
+                    "Project Four",
+                    "Project Five",
+                    "Project One",
+                    "Project Two",
+                    "Project Three",
+                    "Project Four",
+                    "Project Five"
                 )
+            )
 
         }
     }
